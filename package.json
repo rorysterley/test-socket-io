@@ -1,0 +1,25 @@
+{
+  "name": "test-socket-io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rorysterley/test-socket-io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rorysterley/test-socket-io/issues"
+  },
+  "homepage": "https://github.com/rorysterley/test-socket-io#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express.io": "^1.1.13",
+    "socket.io": "^1.4.4"
+  }
+}
